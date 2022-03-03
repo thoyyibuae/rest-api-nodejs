@@ -51,6 +51,7 @@ router.get('/:id', async (req, res) => {
 })
 
 
+
 router.patch('/:id', async (req, res) => {
     try {
         const dt = await Data.findById(req.params.id)
